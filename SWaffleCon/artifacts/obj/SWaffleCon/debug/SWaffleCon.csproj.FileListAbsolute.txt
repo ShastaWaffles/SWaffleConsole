@@ -1,0 +1,9 @@
+C:\Users\incam\Documents\PEAKMOD\SWaffleCon\artifacts\bin\SWaffleCon\debug\com.github.Shastafication.SwaffleConsole.deps.json
+C:\Users\incam\Documents\PEAKMOD\SWaffleCon\artifacts\bin\SWaffleCon\debug\com.github.Shastafication.SwaffleConsole.dll
+C:\Users\incam\Documents\PEAKMOD\SWaffleCon\artifacts\obj\SWaffleCon\debug\SWaffleCon.csproj.AssemblyReference.cache
+C:\Users\incam\Documents\PEAKMOD\SWaffleCon\artifacts\obj\SWaffleCon\debug\SWaffleCon.IgnoresAccessChecksTo.cs
+C:\Users\incam\Documents\PEAKMOD\SWaffleCon\artifacts\obj\SWaffleCon\debug\SWaffleCon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\incam\Documents\PEAKMOD\SWaffleCon\artifacts\obj\SWaffleCon\debug\SWaffleCon.AssemblyInfoInputs.cache
+C:\Users\incam\Documents\PEAKMOD\SWaffleCon\artifacts\obj\SWaffleCon\debug\SWaffleCon.AssemblyInfo.cs
+C:\Users\incam\Documents\PEAKMOD\SWaffleCon\artifacts\obj\SWaffleCon\debug\SWaffleCon.csproj.CoreCompileInputs.cache
+C:\Users\incam\Documents\PEAKMOD\SWaffleCon\artifacts\obj\SWaffleCon\debug\com.github.Shastafication.SwaffleConsole.dll
