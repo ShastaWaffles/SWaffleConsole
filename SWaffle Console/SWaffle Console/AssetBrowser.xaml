@@ -1,0 +1,35 @@
+﻿<Window x:Class="SWaffle_Console.AssetBrowser"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SWaffle_Console"
+        mc:Ignorable="d"
+        Title="SWaffle PEAK - Asset Browser" Height="450" Width="800" Icon="/consoleclient.png" WindowStyle="ThreeDBorderWindow">
+    <Window.Resources>
+        <Style x:Key="GroupItemStyle" TargetType="TreeViewItem">
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <Style x:Key="AssetItemStyle" TargetType="TreeViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TreeViewItem">
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Header, RelativeSource={RelativeSource Self}}" Value="{x:Static sys:String.Empty}">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <Button Content="Give Selected Item" DockPanel.Dock="Bottom" Click="GiveItem_Click" Height="30"/>
+        <TextBox x:Name="SearchBox" DockPanel.Dock="Top" Margin="5" Height="25" TextChanged="SearchBox_TextChanged"/>
+        <TreeView x:Name="AssetTree" Margin="5" MouseRightButtonUp="AssetTree_MouseRightButtonUp" />
+    </DockPanel>
+</Window>
+    
+    
